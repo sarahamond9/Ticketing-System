@@ -1,0 +1,57 @@
+/* Sarah Amond*/
+/* C00308719 */
+
+/* Container for the search bar elements */
+.search-block {
+    display: flex;          /* Arranges input and button side-by-side */
+    gap: 12px;              /* Space between the input field and search button */
+    margin-bottom: 25px;    /* Space below the search block */
+}
+
+/* Styling for the text input inside the search bar */
+.search-block input {
+    flex-grow: 1;           /* Allows the input to take up remaining horizontal space */
+    padding: 12px;          /* Inner spacing for comfortable typing */
+    border: 1px solid #87564B; /* Custom brownish border color */
+    border-radius: 6px;     /* Rounded corners */
+}
+
+/* Structure of the main tickets table */
+.queue-table {
+    width: 100%;            /* Spans the full width of its container */
+    border-collapse: collapse; /* Removes double borders between cells */
+    margin-top: 15px;       /* Space above the table */
+}
+
+/* Header cells styling for the table columns */
+.queue-table th {
+    background-color: #6D322A; /* Deep burgundy background color */
+    color: var(--text-primary); /* Uses theme text color variable */
+    padding: 14px;          /* Inner spacing for headers */
+    font-weight: 600;       /* Semi-bold text */
+    text-align: left;       /* Aligns header text to the left */
+    border-bottom: 2px solid var(--border-color); /* Bottom border separator */
+}
+
+/* Standard data cells inside the table body */
+.queue-table td {
+    padding: 14px;          /* Inner spacing for content rows */
+    border-bottom: 1px solid var(--border-color); /* Subtle row separator line */
+    vertical-align: top;    /* Aligns content to the top of the cell */
+}
+
+/* Tray container holding buttons and action forms */
+.action-tray {
+    display: flex;          /* Enables flexbox layout */
+    flex-direction: column; /* Stacks action items vertically */
+    gap: 8px;               /* Space between stacked items */
+    max-width: 280px;       /* Limits the maximum width of the tray */
+}
+
+/* Specific styling for resolution text inputs within action cells */
+.inline-resolution-input {
+    padding: 8px;           /* Compact inner spacing */
+    font-size: 0.85rem;     /* Smaller font size for tighter spaces */
+    border: 1px solid #87564B; /* Matching border color */
+    border-radius: 4px;     /* Slightly rounded corners */
+}

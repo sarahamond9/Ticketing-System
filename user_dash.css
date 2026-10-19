@@ -1,0 +1,53 @@
+/* Sarah Amond*/
+/* C00308719 */
+/* Dashboard Wrapper */
+.dashboard-frame {
+    max-width: 1100px;                      /* Sets a maximum width of 1100 pixels for the dashboard container */
+    margin: 30px auto;                      /* Centers the frame horizontally with 30 pixels top/bottom margins */
+    background: var(--card-bg);             /* Sets the background color using a CSS theme variable */
+    padding: 30px;                          /* Adds 30 pixels of inner padding inside the frame */
+    border-radius: 8px;                     /* Rounds the corners of the dashboard frame with an 8-pixel radius */
+    box-shadow: 0 4px 15px #D2BDAB;         /* Applies a soft drop shadow beneath the container */
+}
+
+/* Navigation Row */
+.portal-header {
+    display: flex;                          /* Arranges child elements in a flexible row layout */
+    justify-content: space-between;         /* Spaces items out with equal space between them */
+    align-items: center;                    /* Vertically centers items along the cross axis */
+    border-bottom: 2px solid var(--border-color); /* Adds a bottom border separator line */
+    padding-bottom: 15px;                   /* Adds space below the content before the border */
+    margin-bottom: 30px;                    /* Adds space below the entire header block */
+}
+
+/* Side-by-Side Application Views */
+.workspace-grid {
+    display: grid;                          /* Sets up a CSS grid layout container */
+    grid-template-columns: 1fr 1fr;         /* Creates two equal-width columns side-by-side */
+    gap: 40px;                              /* Adds a 40-pixel gap between grid columns */
+}
+
+/* Ticket Logs & Feedback Messaging */
+.ticket-card {
+    border: 1px solid var(--border-color);  /* Adds a subtle border around the ticket card */
+    padding: 20px;                          /* Adds inner padding inside the ticket card */
+    border-radius: 6px;                     /* Rounds the corners of the ticket card slightly */
+    margin-bottom: 15px;                    /* Adds space below each individual ticket card */
+    background: #6D322A;                    /* Sets a deep burgundy background color */
+}
+
+.ticket-header {
+    display: flex;                          /* Arranges ticket header items in a flexible row */
+    justify-content: space-between;         /* Pushes header items to opposite ends horizontally */
+    align-items: center;                    /* Vertically aligns header contents */
+    margin-bottom: 10px;                    /* Adds space below the ticket header */
+}
+
+/* Ticket Entry Textareas */
+.ticket-form textarea {
+    width: 100%;                            /* Makes the textarea span the full width of its container */
+    padding: 12px;                          /* Adds inner padding for comfortable typing space */
+    border: 1px solid #87564B;              /* Adds a custom brownish border around the textarea */
+    border-radius: 6px;                     /* Rounds the corners of the textarea */
+    resize: vertical;                       /* Allows users to resize the textarea vertically only */
+}

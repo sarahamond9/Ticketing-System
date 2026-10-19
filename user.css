@@ -1,0 +1,54 @@
+/* Sarah Amond*/
+/* C00308719 */
+/* Auth Box Shell */
+.auth-container {
+    max-width: 420px;                       /* Sets a maximum width of 420 pixels for the authentication container */
+    margin: 60px auto;                      /* Centers the container horizontally with 60 pixels top/bottom margins */
+    background: var(--card-bg);             /* Sets the background color using a theme CSS variable */
+    padding: 35px;                          /* Adds 35 pixels of inner padding inside the auth box */
+    border-radius: 8px;                     /* Rounds the corners of the auth container with an 8-pixel radius */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Applies a soft drop shadow effect */
+}
+
+.auth-container h2 {
+    color: var(--text-primary);             /* Sets the heading text color using a theme variable */
+    margin-bottom: 25px;                    /* Adds spacing below the heading */
+    text-align: center;                     /* Centers the heading text horizontally */
+}
+
+/* User Form Controls */
+.auth-group {
+    margin-bottom: 20px;                    /* Adds spacing below each form control group */
+}
+
+.auth-group label {
+    display: block;                         /* Makes the label occupy its own full-width line */
+    margin-bottom: 8px;                     /* Adds spacing between the label and its input field */
+    font-weight: 600;                       /* Makes the label text semi-bold */
+    font-size: 0.9rem;                      /* Sets a slightly smaller font size for the label */
+}
+
+.auth-group input {
+    width: 100%;                            /* Makes the input field span the full width of its container */
+    padding: 12px;                          /* Adds inner padding for comfortable text entry */
+    border: 1px solid #87564B;              /* Adds a custom brownish border around the input */
+    border-radius: 6px;                     /* Rounds the corners of the input field */
+    font-size: 1rem;                        /* Sets standard font size for input text */
+}
+
+/* User Accent Login Button */
+.btn-user-submit {
+    width: 100%;                            /* Makes the submit button span the full width of its container */
+    padding: 12px;                          /* Adds inner padding for button sizing */
+    background-color: #6D322A;              /* Sets a deep burgundy background color */
+    color: #A59383;                         /* Sets a muted accent text color */
+    border: none;                           /* Removes default button borders */
+    border-radius: 6px;                     /* Rounds the corners of the button */
+    font-size: 1rem;                        /* Sets standard text size for the button */
+    font-weight: bold;                      /* Makes the button text bold */
+    cursor: pointer;                        /* Changes the cursor to a pointer on hover */
+}
+
+.btn-user-submit:hover {
+    background-color: #6D322A;              /* Keeps the background color consistent on hover */
+}
